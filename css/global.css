@@ -214,6 +214,13 @@ div.misc header
     height: 320px;
 }
 
+.block_1 div
+{
+    position:relative;
+    vertical-align: top;
+    display:block;
+}
+
 img.logo_1
 {
     padding-top: 20px;
