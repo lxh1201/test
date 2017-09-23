@@ -5,9 +5,16 @@
         width: 1600px;
     }
 
-    img.bk_1
+    div.bk_1
     {
         height: 320px;
+        background-size: 100% 320px;
+    }
+
+    div.bk_1 div + div p
+    {
+        color: white;
+        font-size: 80px;
     }
 
     ul.nav
@@ -47,9 +54,16 @@
         width: 1400px;
     }
 
-    img.bk_1
+    div.bk_1
     {
         height: 280px;
+        background-size: 100% 280px;
+    }
+
+    div.bk_1 div + div p
+    {
+        color: white;
+        font-size: 70px;
     }
 
     ul.nav
@@ -90,9 +104,16 @@
         width: 1200px;
     }
 
-    img.bk_1
+    div.bk_1
     {
-        height: 240px;
+        height: 250px;
+        background-size: 100% 240px;
+    }
+
+    div.bk_1 div + div p
+    {
+        color: white;
+        font-size: 60px;
     }
 
     ul.nav
@@ -123,6 +144,36 @@
         padding-left: 20px;
         padding-right: 40px;
     }
+}
+
+div.bk_1
+{
+    background-image: url("../images/bk1.png");
+    background-repeat: no-repeat;
+}
+
+div.bk_1 div
+{
+    padding: 18px;
+    float: left;
+}
+
+div.bk_1 div div
+{
+    font-size: 40px;
+    color: white;
+}
+
+div.bk_1 div div img
+{
+    top: 50%;
+    vertical-align: middle;
+    padding-right: 18px;
+}
+
+div.bk_1 div + div
+{
+    float: right;
 }
 
 div.article header
