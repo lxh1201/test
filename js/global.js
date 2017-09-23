@@ -41,3 +41,11 @@ window.onload = function(){
         }
     }
 }
+
+function mov_in(obj) {
+    obj.style.color = "blue";
+}
+
+function mov_out(obj) {
+    obj.style.color = "white";
+}
