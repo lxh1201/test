@@ -39,7 +39,9 @@
     div.article
     {
         width: 1000px;
-        float: left;
+        position:relative;
+        vertical-align: top;
+        display:inline-block;
         padding-top: 10px;
         padding-bottom: 10px;
         padding-left: 20px;
@@ -88,7 +90,9 @@
     div.article
     {
         width: 800px;
-        float: left;
+        position:relative;
+        vertical-align: top;
+        display:inline-block;
         padding-top: 10px;
         padding-bottom: 10px;
         padding-left: 20px;
@@ -138,7 +142,9 @@
     div.article
     {
         width: 600px;
-        float: left;
+        position:relative;
+        vertical-align: top;
+        display:inline-block;
         padding-top: 10px;
         padding-bottom: 10px;
         padding-left: 20px;
@@ -197,7 +203,9 @@ div.article header span + span
 div.misc
 {
     width: 240px;
-    float: left;
+    position:relative;
+    vertical-align: top;
+    display:inline-block;
     padding: 10px
 }
 
@@ -212,13 +220,6 @@ div.misc header
 .block_1
 {
     height: 320px;
-}
-
-.block_1 div
-{
-    position:relative;
-    vertical-align: top;
-    display:block;
 }
 
 img.logo_1
