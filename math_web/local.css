@@ -1,0 +1,170 @@
+.contents
+{
+    width: 980px;
+}
+
+.page_location
+{
+    line-height: 26px;
+    margin-bottom: 10px;
+}
+
+.choose_box
+{
+    background: #f7faff;
+    height: 47px;
+    line-height: 47px;
+    border: 1px solid #dcdcdc;
+    overflow: hidden;
+    margin-top: 10px;
+}
+
+.choose_tit
+{
+    float: left;
+    background: #fff url(/images/search_ico.gif) no-repeat right -254px;
+    padding: 0 8px;
+    margin-right: 10px;
+    line-height: 47px;
+}
+
+.choose_center
+{
+    float: left;
+    line-height: 47px;
+    width: 720px;
+}
+
+.choose_center ul
+{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    line-height: 47px;
+}
+
+.choose_center ul li
+{
+    list-style: none;
+    display: inline-block;
+    margin: 0;
+    margin-right: 13px;
+    padding: 0;
+    line-height: 47px;
+}
+
+.choose_center ul li input
+{
+    height: 22px;
+    width: 90px;
+    line-height: 22px;
+    border: 1px solid #ccc;
+    margin-left: 3px;
+    padding-left: 2px;
+    vertical-align: middle;
+}
+
+.btn_choose
+{
+    display: block;
+    background: url(/images/search_ico.gif) no-repeat 0 -40px;
+    width: 50px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    margin-top: 12px;
+    color: #333;
+    font-size: 14px;
+    margin-right: 40px;
+}
+
+.px_box
+{
+    border-top: 2px solid #ae8976;
+    background: #fafafa;
+    line-height: 34px;
+    margin-top: 10px;
+    height: 50px;
+}
+
+.grid_15
+{
+    width: 440px;
+    float: left;
+    margin-right: 10px;
+    line-height: 34px;
+}
+
+.px_lease
+{
+    border-left: 1px solid #dcdcdc;
+    height: 34px;
+    line-height: 34px;
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+
+.px_lease li
+{
+    float: left;
+    border-right: 1px solid #dcdcdc;
+    padding: 0 10px;
+    height: 34px;
+    position: relative;
+    z-index: 10;
+    list-style: none;
+}
+
+.grid_4
+{
+    width: 200px;
+    text-align: right;
+    float: left;
+    margin-right: 10px;
+    line-height: 34px;
+}
+
+.result
+{
+    padding-bottom: 10px;
+    margin-top: 10px;
+    height: 180px;
+}
+
+.result_pic
+{
+    position: relative;
+    z-index: 15;
+    width: 140px;
+    float: left;
+    margin-right: 10px;
+}
+
+.result_pic a
+{
+    position: relative;
+    display: block;
+    width: 120px;
+    height: 150px;
+    border: 1px solid #ccc;
+    padding: 4px;
+    overflow: hidden;
+    text-decoration: none;
+    color: #049;
+}
+
+.result_pic a img
+{
+    position: absolute;
+    vertical-align: middle;
+    border: 0;
+    width: 120px;
+}
+
+.result_name
+{
+    width: 290px;
+    float: left;
+    margin-right: 10px;
+}
