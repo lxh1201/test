@@ -1,3 +1,4 @@
+<!--
 <?php
 $count=0;
 if(file_exists("count.txt"))
@@ -7,6 +8,7 @@ if(file_exists("count.txt"))
 $count++;
 file_put_contents("count.txt",$count);
 ?>
+-->
 
 <!DOCTYPE html>
 
@@ -42,14 +44,14 @@ file_put_contents("count.txt",$count);
 
 <div class="menu">
     <ul>
-        <li><a href="index.php">首页</a></li>
-        <li><a href="math_web/1.html">专业书</a></li>
-        <li><a href="math_web/1.html">思政书</a></li>
-        <li><a href="math_web/1.html">英语书</a></li>
-        <li><a href="math_web/1.html">四六级</a></li>
-        <li><a href="math_web/1.html">计算机二级</a></li>
-        <li><a href="math_web/1.html">考研</a></li>
-        <li><a href="math_web/1.html">课外</a></li>
+        <li><a href="/index.html">首页</a></li>
+        <li><a href="/math_web/zhuanyeshu.html">专业书</a></li>
+        <li><a href="/math_web/sizhengshu.html">思政书</a></li>
+        <li><a href="/math_web/yingyushu.html">英语书</a></li>
+        <li><a href="/math_web/siliuji.html">四六级</a></li>
+        <li><a href="/math_web/jisuanjierji.html">计算机二级</a></li>
+        <li><a href="/math_web/kaoyan.html">考研</a></li>
+        <li><a href="/math_web/kewai.html">课外</a></li>
     </ul>
 </div>
 
@@ -161,13 +163,13 @@ file_put_contents("count.txt",$count);
         </div>
     </div>
 </div>
-
+<!--
 <p class="end">
     <?php
     echo "点击量: ".$count;
     ?>
 </p>
-
+-->
 </body>
 
 </html>
